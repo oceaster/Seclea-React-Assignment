@@ -20,7 +20,7 @@ def main():
 
 
 def client(build=False):
-    chdir('./client')
+    chdir('./clients')
     if build:
         system('npm run build')
     else:
