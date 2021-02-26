@@ -39,15 +39,17 @@
 
 .user-img-large {
   position: absolute;
-  height: 50vmin;
-  width: 50vmin;
+  height: 95vh;
+  width: 75vh;
   min-height: 32px;
   min-width: 32px;
-  padding: 25vmin 25vmin 25vmin 25vmin;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 0 25vmin 0 25vmin;
 
   filter: drop-shadow(1px 1px 100vmin black);
   border-radius: 0%;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
